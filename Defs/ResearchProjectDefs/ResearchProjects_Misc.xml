@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchTabDef>
+		<defName>Simple</defName>
+		<label>Civics</label>		
+	</ResearchTabDef>
+	
+
+	<ResearchProjectDef>
+		<defName>Anarchy</defName>
+		<label>Anarchy</label>
+		<description>dziala</description>
+		<baseCost>500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>0</researchViewX>
+		<researchViewY>2</researchViewY>
+		<prerequisites>
+		</prerequisites>
+		<tab>Simple</tab>
+	</ResearchProjectDef>
+
+
+	<ResearchProjectDef>
+		<defName>Despotism</defName>
+		<label>Despotism</label>
+		<description>dziala2</description>
+		<baseCost>700</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>1</researchViewX>
+		<researchViewY>2</researchViewY>
+		<prerequisites>
+			<li>Anarchy</li>
+		</prerequisites>
+		<tab>Simple</tab>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>Democracy</defName>
+		<label>Democracy</label>
+		<description>dziala2</description>
+		<baseCost>2000</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>2</researchViewX>
+		<researchViewY>3</researchViewY>
+		<prerequisites>
+			<li>Despotism</li>
+		</prerequisites>
+		<tab>Simple</tab>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>Socialism</defName>
+		<label>Socialism</label>
+		<description>dziala2</description>
+		<baseCost>2000</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>2</researchViewX>
+		<researchViewY>2</researchViewY>
+		<prerequisites>
+			<li>Despotism</li>
+		</prerequisites>
+		<tab>Simple</tab>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>Monarchy</defName>
+		<label>Monarchy</label>
+		<description>dziala2</description>
+		<baseCost>2000</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>2</researchViewX>
+		<researchViewY>1</researchViewY>
+		<prerequisites>
+			<li>Despotism</li>
+		</prerequisites>
+		<tab>Simple</tab>
+	</ResearchProjectDef>
+
+	
+</Defs>

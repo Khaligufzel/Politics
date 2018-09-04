@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="0Harmony, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="0Harmony, Version=1.2.0.1, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Assemblies\0Harmony.dll</HintPath>
     </Reference>
@@ -40,8 +40,7 @@
       <HintPath>..\..\..\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="HugsLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="HugsLib">
       <HintPath>..\..\HugsLib\Assemblies\HugsLib.dll</HintPath>
     </Reference>
     <Reference Include="System" />
@@ -60,7 +59,6 @@
     <None Include="..\Patches\**" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Democracy.cs" />
     <Compile Include="Politics.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

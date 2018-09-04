@@ -1,8 +1,8 @@
 ﻿using System;
 
-public class Politics
+public class Class1
 {
-	public Politics()
+	public Class1()
 	{
 	}
 }
